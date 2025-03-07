@@ -3,23 +3,37 @@ import { Image } from "astro:assets";
 import gflogo from '../img/going-functional.png';
 const { greeting = "Hello", name = "Astronaut" } = Astro.props;
 ---
-<div class="logo-container">
+<div class="container">
   <Image class={"logo_img"} src={ gflogo } alt="logo"></Image>
+
+  <p class="body-text mt-3">Going Functional is a community dedicated to spreading
+  functional programming. Whether it's through meetups, community or driving
+  workplace adoption, our goal is to ensure that functional programming has a
+  bright future.</p>
 </div>
 <slot />
 
 <style>
-  .logo-container {
+  .body-text {
+    max-width: 40rem;
+    line-height: 1.5rem;
+    text-align: center;
+  }
+
+  .mt-3 {
+    margin-top: 3rem;
+  }
+  .container {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
-    height: 100svh;
+    flex-direction: column;
   }
 
   .logo_img {
-    margin: auto;
-    padding: auto;
-    display: block;
+    max-height: 24rem;
+    max-width: 80%;
+    width: auto;
+    padding-top: 3rem;
   }
 </style>
