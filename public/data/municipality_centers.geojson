@@ -1,0 +1,3775 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kiruna"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.553781190776192,
+          68.21587305981438
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Pajala"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.846544680376695,
+          67.40612419327928
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Arjeplog"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.19507760484359,
+          66.38758503186818
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Övertorneå"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.511188075142172,
+          66.51706148505028
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Haparanda"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.750227245978266,
+          65.96917456442037
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kalix"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.95728748028398,
+          65.97704495929423
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Överkalix"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.587331503962787,
+          66.49333717695612
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Älvsbyn"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.701348952582293,
+          65.77739139059355
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Piteå"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.751588213361742,
+          65.3760855083143
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Luleå"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.974734449447794,
+          65.84952721071804
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Boden"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.217381799838165,
+          66.05471914047163
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Gällivare"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.462650438112547,
+          67.20516986680437
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Jokkmokk"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.651133836445126,
+          66.92301556052129
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Arvidsjaur"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.166368063353417,
+          65.66840431650778
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sorsele"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.616030127526187,
+          65.69384257208088
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Storuman"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.21706337687712,
+          65.44831090282997
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Dorotea"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.82176336485054,
+          64.46560422663106
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Åsele"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.720088609758534,
+          64.21516801724579
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Vilhelmina"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.00523885925793,
+          64.89669328346383
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lycksele"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.399167976824458,
+          64.66520440187614
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Skellefteå"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.474731442074017,
+          64.83458931175585
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Malå"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.75609889004042,
+          65.26119139013866
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Norsjö"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.460759013075347,
+          64.9433961153475
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Robertsfors"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.76443472712927,
+          64.16863401088776
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bjurholm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.945239258148717,
+          63.980610845580884
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Vännäs"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.67047654344566,
+          63.961159111628405
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Nordmaling"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.255715714244104,
+          63.64907295296581
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Umeå"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.319793514248346,
+          63.976535436236986
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Vindeln"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.526027589399746,
+          64.41153673377698
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Strömsund"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.185959681153946,
+          64.23388923790642
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Åre"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.18579051696588,
+          63.49618824008175
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Härjedalen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.736483962587783,
+          62.16566565073944
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Berg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.48632025786506,
+          62.69365095532214
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Östersund"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.962261280913282,
+          63.25194865498298
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ragunda"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.107965257673897,
+          63.1836987963658
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bräcke"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.583966433737714,
+          62.864162642927454
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Krokom"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.19144252809923,
+          63.78822096223365
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Örnsköldsvik"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.220663681529516,
+          63.55629008868149
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kramfors"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.877340919030758,
+          62.99445547726515
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sollefteå"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.90796427746298,
+          63.452571583667265
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Härnösand"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.644604597574784,
+          62.71272565506942
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Timrå"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.366026159166893,
+          62.661241989149005
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ånge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.681345710534686,
+          62.48343376397335
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sundsvall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.965004981327922,
+          62.56038211756888
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Nordanstig"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.817017708517284,
+          62.05200824656927
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hudiksvall"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.817715240620743,
+          61.8313808222658
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ovanåker"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.755411196577057,
+          61.33535446020326
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ljusdal"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.535873537643624,
+          61.922079911308145
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bollnäs"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.342208716668665,
+          61.3347201298854
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Söderhamn"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.90257628750672,
+          61.30314714433217
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ockelbo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.557380716906664,
+          60.940633815578565
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Gävle"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.079480722833267,
+          60.68780446250065
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hofors"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.424698538151063,
+          60.51137235871332
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sandviken"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.59436080426164,
+          60.51526909868198
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Malung-Sälen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.36432377220703,
+          60.85054132716593
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Älvdalen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.2518320523142,
+          61.64496974903713
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Orsa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.725382532573917,
+          61.33579885278556
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mora"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.29233801640055,
+          61.15398263015388
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Leksand"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.033600289311067,
+          60.739716762027825
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Vansbro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.287952927320589,
+          60.46994555358515
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Gagnef"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.94016344935082,
+          60.4668445983728
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ludvika"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.723861461496824,
+          60.217922009421954
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Smedjebacken"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.469559254316636,
+          60.098465372140964
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Borlänge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.40149039023828,
+          60.480658304009324
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Falun"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.854916682359203,
+          60.77568314560372
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Säter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.708701921169478,
+          60.43463327940157
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hedemora"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.044201954512403,
+          60.40843498769726
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Avesta"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.379094363742553,
+          60.252446574444804
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Torsby"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.93804593693423,
+          60.547755619301654
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Årjäng"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.12082968609036,
+          59.44851657696748
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Eda"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.18607363833965,
+          59.82887856192042
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Arvika"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.704323557105795,
+          59.76425109724582
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Säffle"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.031186468777946,
+          59.08903244828315
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Grums"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.03004581360895,
+          59.403391000955594
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sunne"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.016755810452963,
+          59.894945271257654
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kil"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.21522718498548,
+          59.58216486731763
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Forshaga"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.545457137900542,
+          59.66006607472636
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Munkfors"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.527715740692116,
+          59.82460885730168
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hammarö"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.581376453308167,
+          59.19510541976646
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Karlstad"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.624186558367285,
+          59.463470012468434
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hagfors"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.62623433722763,
+          60.1011651013377
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Filipstad"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.17564036394495,
+          59.92363015923539
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Storfors"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.270299777961213,
+          59.48413050873026
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kristinehamn"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.987136120252757,
+          59.26888734506724
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Älvkarleby"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.47324804384874,
+          60.576990396371144
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Heby"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.053742149031734,
+          60.088154273571234
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tierp"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.659903708634914,
+          60.367096156792655
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Östhammar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.173060090502332,
+          60.28306395148533
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Knivsta"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.897303442053726,
+          59.77091047797322
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Uppsala"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.773264845185167,
+          59.955583903836356
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Enköping"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.14932762561324,
+          59.678407756594055
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Norrtälje"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.578254315360766,
+          59.89383863848951
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Nykvarn"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.405347422475586,
+          59.18789583931516
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Södertälje"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.527801022944487,
+          59.1437834690918
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Värmdö"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.5367986452859,
+          59.313462441838
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Höganäs"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.619516975645212,
+          56.22969342715879
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Helsingborg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.799122076552521,
+          56.10131582162745
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Båstad"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.819905718565622,
+          56.40400228150165
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ängelholm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.00001556469644,
+          56.27946327121492
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Åstorp"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.00243254167242,
+          56.163187774885756
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bjuv"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.999021904088039,
+          56.07189888390056
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Landskrona"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.929692700570286,
+          55.91492252419445
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kävlinge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.069607993674964,
+          55.79966191258163
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Svalöv"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.164486829477227,
+          55.989005299068396
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Klippan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.286452689165685,
+          56.14418688341294
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Örkelljunga"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.37868924775313,
+          56.333710815695696
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Perstorp"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.395900224937634,
+          56.21630554460785
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hässleholm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.742529962814814,
+          56.20754472445597
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Osby"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.131448549967615,
+          56.43978349579237
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Östra Göinge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.180862879098783,
+          56.31240309996119
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bromölla"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.51288912918406,
+          56.14743207300799
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kristianstad"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.134927201844732,
+          56.05751869776225
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Simrishamn"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.226961675758844,
+          55.61165009347613
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tomelilla"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.029334676891693,
+          55.65149008963334
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ystad"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.961398631515522,
+          55.49496862399195
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Höör"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.553370298844186,
+          55.958696085515385
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Vellinge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.015690513755857,
+          55.47244558757788
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Trelleborg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.254905377578638,
+          55.42723847240194
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Skurup"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.589327146263287,
+          55.48849723745826
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sjöbo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.783640769413324,
+          55.677342697414275
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hörby"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.782432187767995,
+          55.86738344647796
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Eslöv"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.402527999527592,
+          55.87903595888059
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lund"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.402027971229785,
+          55.68472374812552
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Svedala"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.306153828443769,
+          55.57105758292687
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Malmö"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.052224791276217,
+          55.58619597766892
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Burlöv"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.123937989955493,
+          55.659490889337405
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lomma"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.087004745721458,
+          55.72715530487844
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Staffanstorp"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.263073855166283,
+          55.6797678686398
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Olofström"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.597339130554104,
+          56.35094627380181
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sölvesborg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.664082025903525,
+          56.114791301524264
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Karlshamn"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.877045717383709,
+          56.28669791229146
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ronneby"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.230069237383475,
+          56.331797903567065
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Karlskrona"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.699490111049158,
+          56.30895796762246
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Torsås"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.917226603130842,
+          56.44161404476537
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kalmar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.11853337966437,
+          56.71889597824131
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Emmaboda"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.567208220800637,
+          56.665592400192
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Nybro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.89123939026149,
+          56.861026071956786
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mönsterås"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.362594174789706,
+          57.09387806033837
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Högsby"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.909790062995967,
+          57.13909213352204
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Oskarshamn"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.343701231005667,
+          57.38245628240168
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hultsfred"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.847564612634955,
+          57.42806328616018
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Vimmerby"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.88946116631368,
+          57.69944625097867
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Västervik"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.40043225415286,
+          57.852175018654776
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Gotland"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.720981959538165,
+          57.65254765373945
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Borgholm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.85170697856867,
+          57.0262700191044
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mörbylånga"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.544651127225734,
+          56.49234200379078
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kungsbacka"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.179975193625353,
+          57.46213337551481
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Varberg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.43999421712212,
+          57.185252121346764
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hylte"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.292374059165326,
+          56.99531615980513
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Falkenberg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.73802684870293,
+          57.0477829835238
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Laholm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.210935412624679,
+          56.52623463103674
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Halmstad"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.994903420256236,
+          56.773437038972645
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Markaryd"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.650699782861665,
+          56.5633498077278
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ljungby"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.831560392773895,
+          56.85308976997277
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Älmhult"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.173769778376908,
+          56.61736193152194
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Alvesta"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.52072281081331,
+          56.87437810512364
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tingsryd"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.007459222484385,
+          56.561715601439545
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lessebo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.326732861798973,
+          56.78262905316555
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Uppvidinge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.476569591963283,
+          57.05528130502137
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Växjö"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.88504107025247,
+          56.945069970607676
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Vetlanda"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.23426147312631,
+          57.39133602398087
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Värnamo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.080305135969212,
+          57.15379749444878
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Gnosjö"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.830686274959504,
+          57.37921648938149
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Gislaved"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.531615030896546,
+          57.31630694349215
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mullsjö"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.857967597424079,
+          57.96214156488176
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Habo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.120037214324697,
+          58.00126275827242
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tranås"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.863474276240368,
+          58.063012055871866
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Aneby"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.81797810401389,
+          57.89784639745841
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sävsjö"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.624756480061478,
+          57.34725597911773
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Vaggeryd"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.178341947107924,
+          57.501654936163646
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Eksjö"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.241544906550416,
+          57.65125026032382
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Nässjö"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.673964462112792,
+          57.63615065325439
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ödeshög"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.683734730952636,
+          58.252907147765825
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Vadstena"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.791071912911008,
+          58.44707440640249
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Boxholm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.152636882183202,
+          58.15844569024557
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ydre"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.298193737242798,
+          57.891062794880526
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kinda"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.734512757992633,
+          58.02436591712305
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Valdemarsvik"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.572589579534423,
+          58.21697803558288
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Linköping"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.6857404211691,
+          58.38585544957115
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Åtvidaberg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.14359802711732,
+          58.244837717110784
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mjölby"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.127560644045332,
+          58.32319839483205
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Motala"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.096653645086604,
+          58.66175624376646
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Finspång"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.823498063491712,
+          58.84282565933697
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Norrköping"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.27724701694393,
+          58.654880761188
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Söderköping"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.473383802971313,
+          58.41217405550543
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Rättvik"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.344694923515732,
+          61.2170563364179
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Eskilstuna"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.37371977549637,
+          59.331514613017305
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Partille"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.15784501757517,
+          57.742063837407954
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mölndal"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.150909298641352,
+          57.62862210710816
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mark"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.643880797717856,
+          57.470461794833795
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Svenljunga"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.074644270218073,
+          57.431648898928415
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tranemo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.465350629241044,
+          57.51030434861633
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Härryda"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.34248833927498,
+          57.68519332460184
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ulricehamn"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.47981834409066,
+          57.8331423352204
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Borås"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.00369900800402,
+          57.76442362708357
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bollebygd"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.632412922358753,
+          57.7576932243845
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tidaholm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.963068971780842,
+          58.166817368760604
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hjo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.284559075824404,
+          58.29385852483077
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kungälv"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.927468997439973,
+          57.91524643627193
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lerum"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.353129482863665,
+          57.86490006113982
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ale"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.248407345987431,
+          57.97571263320637
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Alingsås"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.561829148850165,
+          57.99499393178402
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Stenungsund"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.94792789028267,
+          58.06657977227036
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Vårgårda"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.803611282204372,
+          58.00323960054027
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Falköping"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.58265165182047,
+          58.17716371223659
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Herrljunga"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.14623180156002,
+          58.0221176912693
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Karlsborg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.538037640209808,
+          58.60680993585186
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Töreboda"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.191893526863055,
+          58.69585700139399
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tibro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.252685623997479,
+          58.47810258354505
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Skövde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.927819390239506,
+          58.44126204488887
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Skara"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.510463159977775,
+          58.396794389046704
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Vara"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.126711932251197,
+          58.26737554547364
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Essunga"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.771503316433723,
+          58.20618248658178
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lilla Edet"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.207422553220113,
+          58.17359873045706
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Uddevalla"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.848389865778103,
+          58.309491691576994
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Trollhättan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.385063266757413,
+          58.229887835427604
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Strömstad"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.286740949599562,
+          58.96968556239065
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tanum"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.45790526907723,
+          58.690735348766054
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sotenäs"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.363900848973685,
+          58.423645551912244
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lysekil"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.484264922568315,
+          58.387124851379696
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Munkedal"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.699404624721296,
+          58.61242373456565
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Dals-Ed"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.918481906641773,
+          58.99635481561549
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bengtsfors"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.167677860282197,
+          59.01236437870077
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Färgelanda"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.063293955069781,
+          58.62408606179997
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mariestad"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.780354175277125,
+          58.786481371821395
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tjörn"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.63786099119855,
+          58.00136237303062
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Orust"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.626039903345713,
+          58.1693636537463
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Åmål"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.706369053623717,
+          58.964918411796816
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Nora"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.923901215423001,
+          59.570096410552395
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hällefors"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.669371159071574,
+          59.76929050644847
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ljusnarsberg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.018397630769329,
+          59.953468647983385
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lindesberg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.351756027991087,
+          59.69304920192016
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Karlskoga"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.58426981774818,
+          59.40654375446567
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Degerfors"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.474113964392615,
+          59.16298674053547
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Laxå"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.563289593289824,
+          58.92665290544926
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lekeberg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.836647364091306,
+          59.20250647304371
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kumla"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.158043861600106,
+          59.14460745035066
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Örebro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.29604591129069,
+          59.259861993719426
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hallsberg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.176837361964743,
+          59.0198035005744
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Askersund"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.007627578915873,
+          58.85332127632131
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Norberg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.96367579752129,
+          60.08481371138376
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Fagersta"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.914016159350865,
+          59.966275242959796
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sala"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.464982683880578,
+          60.0003542682274
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Skinnskatteberg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.740582310100564,
+          59.814977678203775
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Surahammar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.139904884207795,
+          59.804462019964944
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Västerås"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.624245502254865,
+          59.66507580505311
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hallstahammar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.218532534008887,
+          59.582790482146834
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Köping"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.888140124714084,
+          59.597294396842926
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Arboga"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.817939509083686,
+          59.38304077110092
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kungsör"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.090073243610078,
+          59.43558520351448
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Trosa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.479455773570123,
+          58.89883509328831
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Oxelösund"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.078212152779997,
+          58.693344611596274
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Nyköping"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.876068814049177,
+          58.841031519186316
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Gnesta"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.15594480077695,
+          59.08641192852923
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Flen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.737516565878593,
+          59.0783927344138
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Vingåker"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.89950501513573,
+          59.08747005834991
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Katrineholm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.197616647323514,
+          59.02972056189256
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Strängnäs"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.065210100617406,
+          59.3799333508947
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mellerud"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.556659837630036,
+          58.693140952406225
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Vänersborg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.43672417971041,
+          58.463462485817416
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Grästorp"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.68720418352234,
+          58.33918569889045
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lidköping"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.041068485040142,
+          58.572504363499235
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Götene"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.492298068518664,
+          58.59736086329198
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Gullspång"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.013256296820572,
+          58.94261714111815
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Jönköping"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.191181201894807,
+          57.89006145639337
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Nynäshamn"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.874218745735675,
+          58.96980121100444
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Haninge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.204697848957665,
+          59.06252189993802
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tyresö"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.286655063733235,
+          59.208610045506106
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Nacka"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.229531080733494,
+          59.30122863955569
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Stockholm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.98935446739918,
+          59.3322002776232
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Huddinge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.027618320626686,
+          59.21266418818314
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Salem"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.68831202101225,
+          59.231147213276955
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Botkyrka"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.835813974823594,
+          59.16154294486515
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Håbo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.50529147962783,
+          59.623399733574956
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Upplands-Bro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.668953428154197,
+          59.545043505956016
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sigtuna"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.89177927480671,
+          59.66621583338991
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Vallentuna"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.220681428553178,
+          59.606773645766935
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Vaxholm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.25858465039647,
+          59.41495765959323
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sundbyberg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.95488365206191,
+          59.374697128980245
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Solna"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.009903438882247,
+          59.37095485641569
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Upplands Väsby"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.911607986784503,
+          59.52348192190075
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sollentuna"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.91787313937766,
+          59.44708652576469
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Täby"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.068930004228406,
+          59.46696861851268
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Järfälla"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.82287333211545,
+          59.44527962416788
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ekerö"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.668195262424774,
+          59.36000040436687
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Danderyd"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.044196930632552,
+          59.41108853525827
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lidingö"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.17335545186151,
+          59.365268561597134
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Österåker"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.40830823613595,
+          59.511584675753284
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Gothenburg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.992621230305787,
+          57.72068572667226
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Öckerö"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.657496064746681,
+          57.718026667083734
+        ]
+      }
+    }
+  ]
+}

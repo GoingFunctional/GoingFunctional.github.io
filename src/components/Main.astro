@@ -1,7 +1,8 @@
 ---
 import { Image } from "astro:assets";
 import gflogo from "../img/going-functional.png";
-const { greeting = "Hello", name = "Astronaut" } = Astro.props;
+import "leaflet/dist/leaflet.css";
+import Map from "../components/Map.astro";
 const slackInviteLink =
   "https://join.slack.com/t/goingfunctional/shared_invite/zt-31bjfeqw0-JIWxPvHE2y42FQV02iJyKQ";
 ---
@@ -21,6 +22,7 @@ const slackInviteLink =
       </div>
     </div>
   </div>
+  <!-- <Map /> -->
 </div>
 <slot />
 
@@ -64,11 +66,20 @@ const slackInviteLink =
     flex-direction: column;
   }
 
-  .logo_img {
+  /* .logo_img {
     display: block;
     width: auto;
     height: 10rem;
     max-width: 30.8rem;
+    padding: auto;
+    align-self: center;
+  } */
+
+  .logo_img {
+    display: block;
+    width: auto;
+    height: 25rem;
+    max-width: 40.8rem;
     padding: auto;
     align-self: center;
   }
@@ -78,9 +89,14 @@ const slackInviteLink =
     padding: 2rem;
   }
 
-  .vert-container {
+  /* .vert-container {
     display: flex;
     flex-direction: row;
+  } */
+
+  .vert-container {
+    display: flex;
+    flex-direction: column;
   }
 
   .header-txt-container {
@@ -109,11 +125,22 @@ const slackInviteLink =
       flex-direction: column;
     }
 
-    .logo_img {
+    /* .logo_img {
       display: block;
       width: auto;
       height: 11rem;
       max-width: 25.8rem;
+      padding-left: auto;
+      padding-right: auto;
+      padding-bottom: 1rem;
+      align-self: center;
+    } */
+
+    .logo_img {
+      /* display: block; */
+      width: auto;
+      height: 12rem;
+      max-width: 21.8rem;
       padding-left: auto;
       padding-right: auto;
       padding-bottom: 1rem;
