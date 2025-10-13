@@ -1,8 +1,10 @@
 ---
 import { Image } from "astro:assets";
 import gflogo from "../img/going-functional.png";
-import "leaflet/dist/leaflet.css";
-import Map from "../components/Map.astro";
+// import "leaflet/dist/leaflet.css";
+// import Map from "../components/Map.astro";
+// import Tabs from "../components/Tabs.astro";
+import Videos from "../components/Videos.jsx";
 const slackInviteLink =
   "https://join.slack.com/t/goingfunctional/shared_invite/zt-31bjfeqw0-JIWxPvHE2y42FQV02iJyKQ";
 ---
@@ -23,6 +25,9 @@ const slackInviteLink =
     </div>
   </div>
   <!-- <Map /> -->
+  <div class="main-container">
+    <Videos client:load />
+  </div>
 </div>
 <slot />
 
@@ -89,6 +94,11 @@ const slackInviteLink =
     padding: 2rem;
   }
 
+  .main-container {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
   /* .vert-container {
     display: flex;
     flex-direction: row;
@@ -118,6 +128,11 @@ const slackInviteLink =
       flex-direction: column;
       padding-left: auto;
       padding-right: auto;
+    }
+
+    .main-container {
+      padding-left: 2rem;
+      padding-right: 2rem;
     }
 
     .vert-container {
