@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import styles from "./Videos.module.css";
 
 export default function Videos() {
   const ENDPOINT_URL = "https://gfvideofeed-production.up.railway.app/videos/v1/latest";
@@ -20,7 +21,7 @@ export default function Videos() {
         <div key={it.id} >
           <h3>{it.title}</h3>
           <iframe
-            style={{ height: "24rem", width: "100%", maxWidth: "42rem", maxHeight: "24rem", align: "left" }}
+            className={styles.frameContainer}
             src={it.embed_url}
             loading="lazy"
             allowFullScreen
