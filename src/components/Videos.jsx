@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import styles from "./Videos.module.css";
 
 export default function Videos() {
-  const ENDPOINT_URL = "https://gfvideofeed-production.up.railway.app/videos/v1/latest";
+  const ENDPOINT_URL = "https://videos.goingfunctional.com/videos/v1/latest";
   const [items, setItems] = useState([]);
   useEffect(() => {
     (async () => {
