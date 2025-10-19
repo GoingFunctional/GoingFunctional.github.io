@@ -1,0 +1,15 @@
+  .frameContainer {
+    height: 24rem;
+    width: 100%;
+    max-width: 42rem;
+    max-height: 24rem;
+  }
+
+  @media (max-width: 568px) {
+    .frameContainer {
+      height: 24rem;
+      width: 100%;
+      max-width: 25rem;
+      max-height: 14rem;
+    }
+  }

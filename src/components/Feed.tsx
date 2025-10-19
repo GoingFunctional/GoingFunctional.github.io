@@ -1,9 +1,16 @@
 import { useEffect, useState } from "react";
-import styles from "./Videos.module.css";
+import styles from "./Feed.module.css";
 
-export default function Videos() {
-  const ENDPOINT_URL = "https://api.goingfunctional.com/videos/v1/latest";
-  const [items, setItems] = useState([]);
+type FeedItem = {
+  id: string | number;
+  title: string;
+  embed_url: string;
+};
+
+const ENDPOINT_URL = "https://api.goingfunctional.com/feed/v1/";
+
+export default function Feed() {
+  const [items, setItems] = useState<FeedItem[]>([]);
   useEffect(() => {
     (async () => {
       try {
