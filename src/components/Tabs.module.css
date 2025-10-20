@@ -1,0 +1,58 @@
+  .frameContainer {
+    height: 24rem;
+    width: 100%;
+    max-width: 42rem;
+    max-height: 24rem;
+  }
+
+  .content_main {
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+    background-color: #444444;
+    border-radius: 0px 24px 24px 24px;
+  }
+
+  .content_radio_container {
+    display: flex;
+    flex-direction: row;
+    margin-top: 1rem;
+  }
+
+  .content_radio {
+    display: block;
+    padding: .2rem 1rem .2rem 1rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 24px 24px 0px 0px;
+    background-color: #1c1a1a;
+  }
+
+  .content_radio_active {
+    display: block;
+    padding: .2rem 1rem .2rem 1rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 24px 24px 0px 0px;
+    background-color: #444444;
+  }
+
+  .content_radio:hover {
+    background-color: #555555;
+  }
+
+  .content_radio_active:hover {
+    background-color: #555555;
+  }
+
+  @media (max-width: 568px) {
+    .frameContainer {
+      height: 24rem;
+      width: 100%;
+      max-width: 25rem;
+      max-height: 14rem;
+    }
+  }

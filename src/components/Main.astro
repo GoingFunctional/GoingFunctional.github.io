@@ -4,7 +4,7 @@ import gflogo from "../img/going-functional.png";
 // import "leaflet/dist/leaflet.css";
 // import Map from "../components/Map.astro";
 // import Tabs from "../components/Tabs.astro";
-import Videos from "../components/Videos.jsx";
+import Tabs from "../components/Tabs.tsx";
 const slackInviteLink =
   "https://join.slack.com/t/goingfunctional/shared_invite/zt-31bjfeqw0-JIWxPvHE2y42FQV02iJyKQ";
 ---
@@ -26,7 +26,8 @@ const slackInviteLink =
   </div>
   <!-- <Map /> -->
   <div class="main-container">
-    <Videos client:load />
+    <!-- <Videos client:load /> -->
+    <Tabs client:load />
   </div>
 </div>
 <slot />
@@ -95,8 +96,10 @@ const slackInviteLink =
   }
 
   .main-container {
-    padding-left: 2rem;
-    padding-right: 2rem;
+    /* padding-left: 2rem;
+    padding-right: 2rem; */
+    width: 100%;
+    max-width: 60rem;
   }
 
   /* .vert-container {

@@ -1,15 +1,47 @@
   .frameContainer {
-    height: 24rem;
+    height: 28rem;
     width: 100%;
-    max-width: 42rem;
-    max-height: 24rem;
+    /* max-width: 42rem; */
+    /* max-height: 24rem; */
+  }
+
+  .content_header {
+    background-color: #1c1a1a;
+    height: 100%;
+    padding: 0rem 1rem 0rem 1rem;
+    border-radius: 24px 24px 0px 0px;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .content_container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    /* padding: 1rem 1rem 1rem 1rem; */
+    background-color: #0f0f0f;
+    border-radius: 24px;
+  }
+
+  .content_main {
+    margin-top: 0rem;
+    padding: 1rem;
+  }
+
+  h3 {
+    margin-top: 0.8rem;
+    margin-bottom: 0.8rem;
   }
 
   @media (max-width: 568px) {
     .frameContainer {
       height: 24rem;
       width: 100%;
-      max-width: 25rem;
+      /* max-width: 25rem; */
       max-height: 14rem;
     }
   }
