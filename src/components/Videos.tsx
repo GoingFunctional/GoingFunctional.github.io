@@ -22,7 +22,7 @@ export default function Videos() {
   }, [ENDPOINT_URL]);
 
   return (
-    <div style={{ paddingBottom: "1rem", height: "100%", width: "100%" }}>
+    <div className={styles.container} style={{ paddingBottom: "1rem", height: "100%", width: "100%" }}>
       {items.map((it) => (
         <div className={styles.content_container} key={it.id} >
           <div className={styles.content_header}><h3>{it.title}</h3></div>

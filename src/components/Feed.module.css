@@ -111,6 +111,13 @@
     grid-row: 2 / span 1;
   }
 
+  .author {
+    padding-top: 0.2rem;
+    font-size: 0.7rem;
+    text-align: right;
+    font-style: italic;
+  }
+
   /* @media (max-width: 568px) { */
   @media (max-width: 636px) {
     .frameContainer {
