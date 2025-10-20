@@ -24,15 +24,17 @@ export default function Videos() {
   return (
     <div style={{ paddingBottom: "1rem", height: "100%", width: "100%" }}>
       {items.map((it) => (
-        <div key={it.id} >
-          <h3>{it.title}</h3>
-          <iframe
-            className={styles.frameContainer}
-            src={it.embed_url}
-            loading="lazy"
-            allowFullScreen
-            title={it.title}
-          />
+        <div className={styles.content_container} key={it.id} >
+          <div className={styles.content_header}><h3>{it.title}</h3></div>
+          <div className={styles.content_main}>
+            <iframe
+              className={styles.frameContainer}
+              src={it.embed_url}
+              loading="lazy"
+              allowFullScreen
+              title={it.title}
+            />
+          </div>
         </div>
       ))}
     </div>

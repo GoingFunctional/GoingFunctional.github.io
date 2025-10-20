@@ -5,11 +5,171 @@
     max-height: 24rem;
   }
 
-  @media (max-width: 568px) {
+  /* .card {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    width: 50rem;
+  } */
+
+  .card {
+    display: grid;
+    grid-template-columns: [side] 3rem [main] auto [end];
+    grid-template-rows: [header] 6rem [body] auto [end];
+    padding: 0rem;
+    background-color: #0f0f0f;
+    margin-bottom: 1rem;
+    border-radius: 12px;
+    clip-path: inset(0 round 12px);
+  }
+
+  .card_side {
+    /* width: 4rem;
+    height: auto; */
+    grid-column: 1 / span 1;
+    grid-row: 1 / span 1;
+  }
+
+  .card_top_row {
+    display: grid;
+    cursor: pointer;
+    grid-column: 2 / span 1;
+    grid-row: 1 / span 1;
+  }
+
+  .card_top_row_container {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .date_field {
+    display: grid;
+    flex-direction: column;
+    width: 3rem;
+    /* margin-top: 1rem; */
+    background-color: #333333;
+    grid-column: 1 / span 1;
+    grid-row: 1 / span 1;
+  }
+
+  .day_of_month {
+    font-size: xx-large;
+    text-align: center;
+    /* width: 100%;
+    height: auto; */
+    background-color: #555555;
+    padding-left: .3rem;
+    padding-right: .3rem;
+    padding-top: .1rem;
+    padding-bottom: .3rem;
+  }
+
+  .month {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: large;
+    text-align: center;
+    /* width: 100%;
+    height: auto; */
+    background-color: #333333;
+    padding-left: .3rem;
+    padding-right: .3rem;
+    padding-top: .1rem;
+    padding-bottom: .3rem;
+  }
+
+  .card_header {
+    padding-top: 0.4rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    align-content: start;
+    font-size: x-large;
+    font-weight: 600;
+    background-color: #1c1a1a;
+    width: 100%;
+    transition: background-color 0.2s ease, text-decoration-color 0.2s ease;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .card_header:hover {
+    background-color: #2c2a2a;
+    text-decoration: underline;
+  }
+
+  .icon {
+    height: 6rem;
+    width: auto;
+  }
+
+  .card_main {
+    padding: 1rem;
+    display: grid;
+    grid-column: 2 / span 1;
+    grid-row: 2 / span 1;
+  }
+
+  /* @media (max-width: 568px) { */
+  @media (max-width: 636px) {
     .frameContainer {
       height: 24rem;
       width: 100%;
       max-width: 25rem;
       max-height: 14rem;
+    }
+
+    .card_header {
+      padding-top: 0.4rem;
+      padding-left: 1rem;
+      padding-right: 1rem;
+      align-content: start;
+      font-size: 1.2rem;
+      font-weight: 600;
+      background-color: #1c1a1a;
+      width: 100%;
+      transition: background-color 0.2s ease, text-decoration-color 0.2s ease;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      max-width: 100%;
+      max-height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  @media (max-width: 442px) {
+    .frameContainer {
+      height: 24rem;
+      width: 100%;
+      max-width: 25rem;
+      max-height: 14rem;
+    }
+
+    .card_header {
+      padding-top: 0.4rem;
+      padding-left: 1rem;
+      padding-right: 1rem;
+      align-content: start;
+      font-size: 1rem;
+      font-weight: 600;
+      background-color: #1c1a1a;
+      width: 100%;
+      transition: background-color 0.2s ease, text-decoration-color 0.2s ease;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      max-width: 100%;
+      max-height: 100%;
+      object-fit: cover;
+      min-width: 0;
+      min-height: 0;
+    }
+
+    .card_main {
+      padding: 1rem;
+      display: grid;
+      grid-column: 2 / span 1;
+      grid-row: 2 / span 1;
+      font-size: 0.8rem;
     }
   }

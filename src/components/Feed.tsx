@@ -2,12 +2,32 @@ import { useEffect, useState } from "react";
 import styles from "./Feed.module.css";
 
 type FeedItem = {
-  id: string | number;
+  author: string;
   title: string;
-  embed_url: string;
+  url: string;
+  published_at: Date;
+  excerpt: string;
 };
 
 const ENDPOINT_URL = "https://api.goingfunctional.com/feed/v1/";
+
+function month_num_to_name(num: number): string {
+  switch (num) {
+    case 0: return "Jan";
+    case 1: return "Feb";
+    case 2: return "Mar";
+    case 3: return "Apr";
+    case 4: return "May";
+    case 5: return "Jun";
+    case 6: return "Jul";
+    case 7: return "Aug";
+    case 8: return "Sep";
+    case 9: return "Oct";
+    case 10: return "Nov";
+    case 11: return "Dec";
+    default: return "";
+  }
+}
 
 export default function Feed() {
   const [items, setItems] = useState<FeedItem[]>([]);
@@ -23,17 +43,23 @@ export default function Feed() {
   }, [ENDPOINT_URL]);
 
   return (
-    <div style={{ paddingBottom: "1rem", height: "100%", width: "100%" }}>
+    <div style={{ height: "100%", width: "100%" }}>
       {items.map((it) => (
-        <div key={it.id} >
-          <h3>{it.title}</h3>
-          <iframe
-            className={styles.frameContainer}
-            src={it.embed_url}
-            loading="lazy"
-            allowFullScreen
-            title={it.title}
-          />
+        <div className={styles.card} key={it.url}>
+          <div className={styles.date_field}>
+            <div className={styles.day_of_month}>{new Date(it.published_at).getDate()}</div>
+            <div className={styles.month}>{month_num_to_name(new Date(it.published_at).getMonth())}</div>
+          </div>
+          <div className={styles.card_top_row} onClick={() => window.open(it.url, "_blank")}>
+            <div className={styles.card_top_row_container} >
+              <div className={styles.card_header}>{it.title}</div>
+              <img className={styles.icon} src="adabeat_logo.png" />
+            </div>
+          </div>
+          <div className={styles.card_main}>
+            <div>{it.excerpt}</div>
+            <div>{it.author}</div>
+          </div>
         </div>
       ))}
     </div>
