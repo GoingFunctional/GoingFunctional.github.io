@@ -40,13 +40,17 @@
     background-color: #444444;
   }
 
-  .content_radio:hover {
-    background-color: #555555;
+  @media (hover: hover) and (pointer: fine) {
+    .content_radio:hover {
+      background-color: #555555;
+    }
+
+    .content_radio_active:hover {
+      background-color: #555555;
+    }
   }
 
-  .content_radio_active:hover {
-    background-color: #555555;
-  }
+
 
   @media (max-width: 568px) {
     .frameContainer {
