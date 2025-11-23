@@ -2,7 +2,6 @@ import { useEffect, useState } from "react";
 import styles from "./AdventOfCode.module.css";
 
 type Profile = {
-  id: number;
   name: string | null;
   login: string;
   location: string | null;
@@ -11,6 +10,19 @@ type Profile = {
   profile_pic_url: string | null;
   solutions: Solution[] | null;
 };
+
+type GhProfile = {
+  name: string | null,
+  login: string,
+  location: string | null,
+  bio: string | null,
+  html_url: string,
+  avatar_url: string | null,
+}
+
+type GhProfiles = {
+  profiles: GhProfile[]
+}
 
 type Solution = {
   day: number;
@@ -24,16 +36,15 @@ type User = {
   solutions: Solution[];
 }
 
-function toRawGithubUrl(url: string | null) {
-  if (url === null || url === undefined) return null;
-  return url
-    .replace("https://github.com/", "https://raw.githubusercontent.com/")
-    .replace("/blob/", "/");
-}
+//function toRawGithubUrl(url: string | null) {
+//  if (url === null || url === undefined) return null;
+//  return url
+//    .replace("https://github.com/", "https://raw.githubusercontent.com/")
+//    .replace("/blob/", "/");
+//}
 
 const USER_URL = "https://raw.githubusercontent.com/GoingFunctional/AdventOfCode2025/refs/heads/main/solutions.json";
-const SOLUTION_BASE_URL = "https://api.github.com/users/";
-const PROFILE_BASE_URL = "https://api.github.com/users/";
+const PROFILE_BASE_URL = "https://api.goingfunctional.com/gh-profiles/v1/";
 export default function Profiles() {
   const [profiles, setProfiles] = useState<Profile[]>([]);
   const [users, setUsers] = useState<User[]>([]);
@@ -46,14 +57,6 @@ export default function Profiles() {
         if (!r.ok) return;
         const data = await r.json();
         fixed = data.user ?? [];
-        //fixed = (data.user ?? []).map((it: User) => {
-        //  it.solutions.map((s) => {
-        //    return {
-        //      ...s,
-        //      writeUp: toRawGithubUrl(s.writeUp),
-        //    } as Solution;
-        //  })
-        //})
       } catch (e) { console.log(e) }
       setUsers(fixed);
     })();
@@ -62,41 +65,38 @@ export default function Profiles() {
   useEffect(() => {
     (async () => {
       if (users.length === 0) return;
+      let names = users.map((u) => u.userName);
+      const fetched = async () => {
+        try {
+          const r = await fetch((PROFILE_BASE_URL + "?names=" + names));
+          if (!r.ok) return null;
+          return await r.json() as GhProfiles;
+        } catch (e) { console.log(e) }
+      };
 
-      const fetched = await Promise.all(
-        users.map(async (u) => {
-          try {
-            const r = await fetch((PROFILE_BASE_URL + u.userName),
-              {
-                method: "GET",
-                headers: {
-                  "Authorization": "Bearer <add>"
-                }
-              });
-            if (!r.ok) return null;
-            const d = await r.json();
-            return {
-              id: d.id,
-              name: d.name,
-              login: d.login,
-              location: d.location,
-              bio: d.bio,
-              profile_url: d.html_url,
-              profile_pic_url: d.avatar_url,
-              solutions: u.solutions,
-            } as Profile;
-          } catch (e) { console.log(e) }
-        })
-      );
+      let result = await fetched();
+      if (!result) return;
 
-      setProfiles(fetched.filter(Boolean) as Profile[]);
+      setProfiles(result.profiles.map((p) => {
+        const user = users.find((u) => u.userName === p.login);
+        const solutions: Solution[] = user?.solutions ?? [];
+        return {
+          name: p.name,
+          login: p.login,
+          location: p.location,
+          bio: p.bio,
+          profile_url: p.html_url,
+          profile_pic_url: p.avatar_url,
+          solutions,
+        } as Profile;
+      }));
     })();
   }, [users]);
 
   return (
     <div className={styles.container}>
       {profiles.map((it) => (
-        <div className={styles.content_container} key={it.id} >
+        <div className={styles.content_container} key={it.login} >
           <div className={styles.content_header}>
             <div className={styles.header_container}>
               <div className={styles.header_avatar_container}>
