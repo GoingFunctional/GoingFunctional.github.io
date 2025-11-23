@@ -22,10 +22,10 @@ export default function Videos() {
   }, [ENDPOINT_URL]);
 
   return (
-    <div className={styles.container} style={{ paddingBottom: "1rem", height: "100%", width: "100%" }}>
+    <div className={styles.container}>
       {items.map((it) => (
         <div className={styles.content_container} key={it.id} >
-          <div className={styles.content_header}><h3>{it.title}</h3></div>
+          <div className={styles.content_header}>{it.title}</div>
           <div className={styles.content_main}>
             <iframe
               className={styles.frameContainer}

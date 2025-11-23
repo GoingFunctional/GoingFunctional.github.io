@@ -8,8 +8,10 @@
   .content_header {
     background-color: #1c1a1a;
     height: 100%;
-    padding: 0rem 1rem 0rem 1rem;
+    padding: 1rem 1rem 1rem 1rem;
     border-radius: 24px 24px 0px 0px;
+    font-size: 1.2rem;
+    font-weight: 600;
   }
 
   .container {
@@ -21,7 +23,7 @@
   .content_container {
     display: flex;
     flex-direction: column;
-    gap: 1rem;
+    /* gap: 1rem; */
     /* padding: 1rem 1rem 1rem 1rem; */
     background-color: #0f0f0f;
     border-radius: 24px;
@@ -43,5 +45,15 @@
       width: 100%;
       /* max-width: 25rem; */
       max-height: 14rem;
+    }
+  }
+
+  @media (max-width: 380px) {
+    .content_header {
+      font-size: .8rem;
+    }
+
+    h3 {
+      font-size: .8rem;
     }
   }

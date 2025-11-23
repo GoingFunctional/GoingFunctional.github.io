@@ -13,6 +13,13 @@ import Main from "../components/Main.astro";
 			property="og:description"
 			content="A community to help developers who enjoy functional programming a way to find a way to incorporate that in their careers."
 		/>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Parkinsans:wght@300..800&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
+			rel="stylesheet"
+		/>
+
 		<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
 		<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
 		<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
@@ -41,7 +48,10 @@ import Main from "../components/Main.astro";
 		</style> -->
 	</head>
 	<body>
-		<script defer src="https://analytics.mint.se/script.js" data-website-id="6130b62e-ef33-4488-87ab-5f8dba725c00"></script>
+		<script
+			defer
+			src="https://analytics.mint.se/script.js"
+			data-website-id="6130b62e-ef33-4488-87ab-5f8dba725c00"></script>
 		<Main />
 	</body>
 </html>
@@ -53,5 +63,14 @@ import Main from "../components/Main.astro";
 		color: white;
 		margin: 0;
 		padding: 0;
+		font-family: "Parkinsans";
+	}
+
+	a {
+		text-decoration: none;
+	}
+
+	a:hover {
+		text-decoration: underline;
 	}
 </style>

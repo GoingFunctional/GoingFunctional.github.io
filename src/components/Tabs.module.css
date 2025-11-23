@@ -17,12 +17,16 @@
   .content_radio_container {
     display: flex;
     flex-direction: row;
+    align-content: center;
     margin-top: 1rem;
+    padding-right: 1.5rem;
   }
 
   .content_radio {
-    display: block;
-    padding: .3rem 2rem .3rem 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    padding: .6rem 1rem .6rem 1rem;
     font-size: 1.2rem;
     font-weight: bold;
     text-align: center;
@@ -32,7 +36,7 @@
 
   .content_radio_active {
     display: block;
-    padding: .3rem 2rem .3rem 2rem;
+    padding: .6rem 1rem .6rem 1rem;
     font-size: 1.2rem;
     font-weight: bold;
     text-align: center;
@@ -42,11 +46,11 @@
 
   @media (hover: hover) and (pointer: fine) {
     .content_radio:hover {
-      background-color: #555555;
+      background-color: #444444;
     }
 
     .content_radio_active:hover {
-      background-color: #555555;
+      background-color: #444444;
     }
   }
 
@@ -58,5 +62,23 @@
       width: 100%;
       max-width: 25rem;
       max-height: 14rem;
+    }
+
+    .content_radio {
+      font-size: 1rem;
+    }
+
+    .content_radio_active {
+      font-size: 1rem;
+    }
+  }
+
+  @media (max-width: 380px) {
+    .content_radio {
+      font-size: .8rem;
+    }
+
+    .content_radio_active {
+      font-size: .8rem;
     }
   }
