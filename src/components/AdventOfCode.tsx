@@ -100,12 +100,12 @@ export default function Profiles() {
           <div className={styles.content_header}>
             <div className={styles.header_container}>
               <div className={styles.header_avatar_container}>
-                <a href={it.profile_url} >
+                <a href={it.profile_url} target="_blank" rel="noopener noreferrer">
                   <img className={styles.avatar} alt={it.login} src={it.profile_pic_url ?? "user-question.svg"}></img>
                 </a>
               </div>
               <div className={styles.header_info}>
-                <a href={it.profile_url}><h2>{it.name != null && it.name + " "}{it.name != null && "("}<span className={styles.login}>{it.login}</span>{it.name && ")"}</h2></a>
+                <a href={it.profile_url} target="_blank" rel="noopener noreferrer"><h2>{it.name != null && it.name + " "}{it.name != null && "("}<span className={styles.login}>{it.login}</span>{it.name && ")"}</h2></a>
                 <h3>{it.location}</h3>
                 <div className={styles.bio}>{it.bio}</div>
               </div>
@@ -115,10 +115,10 @@ export default function Profiles() {
             {(it.solutions == null || it.solutions.length == 0) && <div className={styles.solution_row} key="0"><div className={styles.no_solutions}>[No solutions uploaded yet]</div></div>}
             {it.solutions?.sort((a, b) => (a.day - b.day)).map((s) => (
               <div className={styles.solution_row} key={s.day}>
-                <a href={"https://adventofcode.com/2025/day/" + s.day} ><div className={styles.solution_day_header}><h2>Day: {s.day}</h2></div></a>
-                {s.writeUp && <div className={styles.read_more}><a href={s.writeUp} >Write-up</a></div>}
-                {s.solution1 && <div className={styles.solution_content}><a href={s.solution1} >Solution 1</a></div>}
-                {s.solution2 && <div className={styles.solution_content}><a href={s.solution2} >Solution 2</a></div>}
+                <a href={"https://adventofcode.com/2025/day/" + s.day} target="_blank" rel="noopener noreferrer"><div className={styles.solution_day_header}><h2>Day: {s.day}</h2></div></a>
+                {s.writeUp && <div className={styles.read_more}><a href={s.writeUp} target="_blank" rel="noopener noreferrer">Write-up</a></div>}
+                {s.solution1 && <div className={styles.solution_content}><a href={s.solution1} target="_blank" rel="noopener noreferrer">Solution 1</a></div>}
+                {s.solution2 && <div className={styles.solution_content}><a href={s.solution2} target="_blank" rel="noopener noreferrer">Solution 2</a></div>}
               </div>
             ))}
           </div>
