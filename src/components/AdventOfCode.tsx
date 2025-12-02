@@ -115,7 +115,7 @@ export default function Profiles() {
             {(it.solutions == null || it.solutions.length == 0) && <div className={styles.solution_row} key="0"><div className={styles.no_solutions}>[No solutions uploaded yet]</div></div>}
             {it.solutions?.sort((a, b) => (a.day - b.day)).map((s) => (
               <div className={styles.solution_row} key={s.day}>
-                <a href={"https://adventofcode.com/2024/day/" + s.day} ><div className={styles.solution_day_header}><h2>Day: {s.day}</h2></div></a>
+                <a href={"https://adventofcode.com/2025/day/" + s.day} ><div className={styles.solution_day_header}><h2>Day: {s.day}</h2></div></a>
                 {s.writeUp && <div className={styles.read_more}><a href={s.writeUp} >Write-up</a></div>}
                 {s.solution1 && <div className={styles.solution_content}><a href={s.solution1} >Solution 1</a></div>}
                 {s.solution2 && <div className={styles.solution_content}><a href={s.solution2} >Solution 2</a></div>}
