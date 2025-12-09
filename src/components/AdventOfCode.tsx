@@ -78,7 +78,7 @@ export default function Profiles() {
       if (!result) return;
 
       setProfiles(result.profiles.map((p) => {
-        const user = users.find((u) => u.userName === p.login);
+        const user = users.find((u) => u.userName === p.login || u.userName === p.name);
         const solutions: Solution[] = user?.solutions ?? [];
         return {
           name: p.name,
