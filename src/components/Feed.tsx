@@ -58,7 +58,7 @@ export default function Feed() {
           </div>
           <div className={styles.card_main}>
             <div>{it.excerpt}</div>
-            <div className={styles.author}>- {it.author}</div>
+            {it.author && <div className={styles.author}>- {it.author}</div>}
           </div>
         </div>
       ))}
