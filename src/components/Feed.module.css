@@ -15,7 +15,7 @@
   .card {
     display: grid;
     grid-template-columns: [side] 3rem [main] auto [end];
-    grid-template-rows: [header] 6rem [body] auto [end];
+    grid-template-rows: [header] 4rem [body] auto [end];
     padding: 0rem;
     background-color: #0f0f0f;
     margin-bottom: 1rem;
@@ -40,6 +40,7 @@
   .card_top_row_container {
     display: flex;
     flex-direction: row;
+    overflow: hidden;
   }
 
   .date_field {
@@ -53,7 +54,7 @@
   }
 
   .day_of_month {
-    font-size: xx-large;
+    font-size: 1.4rem;
     text-align: center;
     /* width: 100%;
     height: auto; */
@@ -69,7 +70,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    font-size: large;
+    font-size: .8rem;
     text-align: center;
     /* width: 100%;
     height: auto; */
@@ -85,7 +86,7 @@
     padding-left: 1rem;
     padding-right: 1rem;
     align-content: start;
-    font-size: 1.2rem;
+    font-size: clamp(0.7rem, 3vw, 1.1rem);
     font-weight: 600;
     background-color: #1c1a1a;
     width: 100%;
@@ -100,7 +101,7 @@
   }
 
   .icon {
-    height: 6rem;
+    height: 4rem;
     width: auto;
   }
 
@@ -133,7 +134,7 @@
       padding-left: 1rem;
       padding-right: 1rem;
       align-content: start;
-      font-size: 1rem;
+      font-size: clamp(0.7rem, 3vw, .8rem);
       font-weight: 600;
       background-color: #1c1a1a;
       width: 100%;
@@ -159,7 +160,7 @@
       padding-left: 1rem;
       padding-right: 1rem;
       align-content: start;
-      font-size: 1rem;
+      font-size: clamp(0.65rem, 3vw, .8rem);
       font-weight: 600;
       background-color: #1c1a1a;
       width: 100%;
