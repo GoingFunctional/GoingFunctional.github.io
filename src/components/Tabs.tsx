@@ -16,7 +16,7 @@ export default function Tabs() {
   return (
     <div className={styles.tab_container}>
       <div className={styles.content_radio_container}>
-        <div className={activeTab == ActiveTab.Feed ? styles.content_radio_active : styles.content_radio} onClick={() => setTab(ActiveTab.Feed)}>Feed</div>
+        <div className={activeTab == ActiveTab.Feed ? styles.content_radio_active_top : styles.content_radio_top} onClick={() => setTab(ActiveTab.Feed)}>Feed</div>
         <div className={activeTab == ActiveTab.Videos ? styles.content_radio_active : styles.content_radio} onClick={() => setTab(ActiveTab.Videos)}>Videos</div>
         <div className={activeTab == ActiveTab.AoC ? styles.content_radio_active : styles.content_radio} onClick={() => setTab(ActiveTab.AoC)}>Advent Of Code 2025</div>
       </div>

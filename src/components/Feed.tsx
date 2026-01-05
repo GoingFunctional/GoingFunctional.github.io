@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import styles from "./Feed.module.css";
 
 type FeedItem = {
+  feed: string;
   author: string;
   title: string;
   url: string;
@@ -53,7 +54,8 @@ export default function Feed() {
           <div className={styles.card_top_row} onClick={() => window.open(it.url, "_blank")}>
             <div className={styles.card_top_row_container} >
               <div className={styles.card_header}>{it.title}</div>
-              <img className={styles.icon} src="adabeat_logo.png" />
+              {(it.feed == "AdaBeat") && <img className={styles.icon} src="adabeat_logo.png" />}
+              {(it.feed == "FunctionalSoftware") && <img className={styles.icon} src="fsab_logo.png" />}
             </div>
           </div>
           <div className={styles.card_main}>
