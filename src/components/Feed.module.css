@@ -105,7 +105,7 @@
   }
 
   .card_main {
-    padding: 1rem;
+    padding: .8rem;
     display: grid;
     grid-column: 2 / span 1;
     grid-row: 2 / span 1;
@@ -132,7 +132,7 @@
       padding-left: 1rem;
       padding-right: 1rem;
       align-content: start;
-      font-size: 1.2rem;
+      font-size: 1rem;
       font-weight: 600;
       background-color: #1c1a1a;
       width: 100%;
